@@ -1,0 +1,115 @@
+:root{
+    --main-bg-color: #d4a6a6;
+}
+
+
+.bg-nav{
+    background-color: var(--main-bg-color);
+}
+
+.navbar{
+    background: rgba(223, 83, 83, 0.671);
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+body{
+    background: rgb(185, 138, 138);
+  }
+
+.rectangle{
+    border-radius: 25px;
+    height: 115px;
+    width: 550px;
+    background-color: rgb(223, 83, 83, 0.671) ;
+    margin-left: 500px;
+    text-align: center;
+}
+
+.rectangle1{
+    border-radius: 25px;
+    height: 55px;
+    width: 550px;
+    background-color: rgb(223, 83, 83, 0.671) ;
+    margin-left: 500px;
+    text-align: center;
+}
+
+img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #e4c0c0;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(226, 71, 71);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #df2020;
+    color: white;
+  }
+  
+  .topnav .login-container {
+    float: right;
+  }
+  
+  
+  
+  .topnav .login-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-color: #e4c0c0;
+    color: rgb(78, 75, 75);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .topnav .login-container button:hover {
+    background-color: rgb(226, 71, 71);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .login-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .login-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+
+
+  
